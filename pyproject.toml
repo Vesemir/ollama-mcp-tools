@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "ollama-mcp-tools"
+version = "0.1.0"
+description = "Yet another mcp tools package for ollama"
+authors = ["Vesemir <shackaler@yandex.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+mcp = "1.6.0"
+ollama = "0.4.8"
+requests = "2.32.3"
+numpy = "^2.3.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
